@@ -1,0 +1,2061 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/samanthaadema/ontologies/2018/2/westeros_ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/samanthaadema/ontologies/2018/2/westeros_ontology">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An ontology that describes the political landscape of the fictional world of Westeros: the regions, capitals, and their corresponding great and lesser ruling houses.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000063"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000071"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Westeros_0000123"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000083"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000099"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000087"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000043"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Westeros_0000118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000091"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Westeros_0000114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000068"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000036"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000084"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000096"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000060"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Westeros_0000124"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000088"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Westeros_0000120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Westeros_0000117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000080"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000092"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000037"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000041"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000085"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000093"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Westeros_0000121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000089"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000065"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Westeros_0000112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000046"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000107"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000062"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000082"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000094"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Westeros_0000122"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000078"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000098"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Westeros_0000119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000070"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Westeros_0000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000090"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000039"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000036"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000037"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000037"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000112"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000098"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000037"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000112"/>
+            <Class IRI="#Westeros_0000120"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000037"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000083"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000037"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000115"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000043"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000037"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="#Westeros_0000121"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000037"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000119"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000109"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000039"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000112"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000099"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000077"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000090"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000092"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000115"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000039"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000070"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000039"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000118"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000059"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000039"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000119"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000105"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000040"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000040"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000112"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000100"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000040"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000079"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000040"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000082"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000040"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000085"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000040"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000074"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000040"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000118"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000064"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000040"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000119"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000106"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000041"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000041"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000080"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000041"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000073"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000041"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000118"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000062"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000041"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000119"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000111"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000078"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000081"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000086"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000087"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000089"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000091"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000115"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000037"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000115"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000039"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000115"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000045"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000112"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000097"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000068"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000118"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000060"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000119"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000108"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000043"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000043"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000078"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000043"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000086"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000043"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000089"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000043"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000115"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000037"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000043"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000112"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000101"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000043"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000094"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000043"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000118"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000061"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000043"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000119"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000104"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000044"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000044"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000072"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000044"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000118"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000065"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000044"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000119"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000103"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000045"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000083"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000093"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000115"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000045"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000069"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000045"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000118"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000067"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000045"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000119"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000110"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000046"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000084"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000088"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000114"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000091"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000046"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000071"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000046"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000118"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000066"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000046"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000119"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000107"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000057"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000059"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000060"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000061"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000062"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000063"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000075"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000064"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000065"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000066"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000071"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000067"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000069"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000068"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000069"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000070"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000071"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000072"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000073"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000074"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000075"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000077"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000077"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000112"/>
+            <Class IRI="#Westeros_0000123"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000077"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000070"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000077"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000119"/>
+            <Class IRI="#Westeros_0000122"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000078"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000078"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000075"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000078"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000119"/>
+            <Class IRI="#Westeros_0000124"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000079"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000079"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000074"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000080"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000080"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000073"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000081"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000081"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000068"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000082"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000083"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000083"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000069"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000084"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000084"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000071"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000085"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000085"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000115"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000039"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000085"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000115"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000040"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000085"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000074"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000086"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000086"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000075"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000087"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000087"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000068"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000088"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000088"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000071"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000089"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000089"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000075"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000090"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000090"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000070"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000091"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000091"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000071"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000092"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000092"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000070"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000093"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000093"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000069"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000094"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000096"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000097"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000098"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000099"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000100"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000101"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000102"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000103"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000104"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000105"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000106"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000107"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000108"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000109"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000110"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000111"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Westeros_0000120"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Westeros_0000121"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Westeros_0000122"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Westeros_0000123"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Westeros_0000123"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000112"/>
+            <Class IRI="#Westeros_0000123"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Westeros_0000123"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000117"/>
+            <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000070"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Westeros_0000123"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Westeros_0000119"/>
+            <Class IRI="#Westeros_0000122"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Westeros_0000124"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000102"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000037"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000039"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000040"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000041"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000042"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000043"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000044"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000045"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000046"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Westeros_0000115"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000057"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000068"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000069"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000070"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000071"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000072"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000073"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000074"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000075"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://www.pizza.owl/ontologies#PIZZA_0000094"/>
+    </ObjectPropertyDomain>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000036</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The most important houses in Westeros. The head of each house is lord paramount of one of the seven kingdoms of Westeros.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000036</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">great_houses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000037</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Targaryen is a noble family of Valyrian descent who once ruled the Seven Kingdoms of Westeros. The Targaryen sigil is a three-headed dragon breathing flames, red on black. The house words are &quot;Fire and Blood&quot;.
+
+The only family of dragonlords who survived the Doom of Valyria, the Targaryens left the Valyrian Freehold twelve years before the Doom. They resided for more than a century at Dragonstone on the island of the same name, until Aegon the Conqueror and his sister-wives, Visenya and Rhaenys, began the first of the Wars of Conquest in 2 BC.
+
+Following the conclusion of Aegon&apos;s Conquest in 1 AC, they built the Aegonfort in the new capital city of King&apos;s Landing. The Aegonfort was later torn down and replaced by the Red Keep, which remained their main seat for the duration of their dynasty, and which housed the Iron Throne. Their original castle was almost always given to the heir to the throne, the Prince of Dragonstone. The Targaryens eventually built the summer residence Summerhall, which has been given to several younger sons of the family over time.
+
+House Targaryen ruled as the Kings of the Andals, the Rhoynar, and the First Men, the Lords of the Seven Kingdoms, and the Great House of the crownlands for nearly three hundred years. Seventeen male Targaryens ruled from the Iron Throne. The dynasty ended with the death of Aerys the Mad King during Robert&apos;s Rebellion, in which the Targaryens were overthrown and replaced by House Baratheon. The two surviving children of Aerys II, Viserys and Daenerys Targaryen, fled into exile, and have resided in the Free Cities of Essos ever since.
+
+http://awoiaf.westeros.org/index.php/House_Targaryen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000037</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">targaryen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000039</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Stark of Winterfell is one of the Great Houses of Westeros and the principal noble house of the north. In days of old they ruled as Kings of Winter, but since Aegon&apos;s Conquest they have been Wardens of the North and ruled as Lords of Winterfell. Their seat, Winterfell, is an ancient castle renowned for its strength.
+
+Their sigil is a grey direwolf racing across a field of white. Their words are &quot;Winter is Coming&quot;, one of only a few house mottoes to be a warning rather than a boast. Several of the POV characters of A Song of Ice and Fire are members of House Stark.
+
+Aside from the Karstarks of Karhold, the Starks of Winterfell may have other, distant relatives in the north. White Harbor and Barrowton are considered to be likely options. Some younger Starks have also held vassal holdfasts for the lords of Winterfell.
+
+http://awoiaf.westeros.org/index.php/House_Stark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000039</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000040</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Tully of Riverrun is one of the Great Houses of the Seven Kingdoms. Lord Hoster Tully, the Lord Paramount of the Trident, rules over the riverlands from the Tully seat of Riverrun. Their sigil is a silver trout leaping on a striped field of blue and mud red, and their house words are &quot;Family, Duty, Honor.&quot;
+
+http://awoiaf.westeros.org/index.php/House_Tully</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000040</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tully</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000041</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Arryn of the Eyrie is one of the Great Houses of Westeros, and is the principal noble house in the Vale of Arryn. Their main seat is the Eyrie, which is considered impregnable. House Arryn has at least one other holding, their winter castle at the Gates of the Moon, which was once their main seat. Both of these fortifications sit astride the Giant&apos;s Lance, the tallest mountain in the Vale, the Gates of the Moon at its foot, the Eyrie at its top. The Arryn sigil is a sky-blue falcon soaring against a white moon on a sky-blue field, and their words are &quot;As High as Honor&quot;.
+
+The Arryns of the Eyrie have a collection of distant relatives located throughout the Vale. Although much poorer than the ruling Arryns, aside from the Arryns of Gulltown, the lesser branches are described by Petyr Baelish as proud due to their name and heritage.
+
+http://awoiaf.westeros.org/index.php/House_Arryn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000041</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">arryn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000042</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Lannister of Casterly Rock is one of the Great Houses of Seven Kingdoms, and the principal house of the westerlands. Their seat is Casterly Rock, though another branch exists that is based in nearby Lannisport. Their sigil is a golden lion on a field of crimson. Their official motto is &quot;Hear Me Roar!&quot; However, their unofficial motto, equally well known, is &quot;A Lannister always pays his debts.&quot; The Warden of the West is a Lannister by tradition.
+
+Fair-haired, tall, and handsome, the Lannisters are the blood of Andal adventurers who carved out a mighty kingdom in the western hills and valleys. Through the female line they boast of descent from Lann the Clever, the legendary trickster of the Age of Heroes who tricked the members of House Casterly into giving him Casterly Rock during the era of the First Men.
+
+The Lannisters reigned as Kings of the Rock until the Targaryen conquest, when they were defeated at the Field of Fire. Though King Loren I Lannister escaped, he was captured the next day by Targaryen forces. His surrender to Aegon the Conqueror convinced Aegon to allow the Lannisters to remain the liege lords of the westerlands. The current Lord of Casterly Rock is Lord Tywin Lannister, whose daughter Cersei is the queen of King Robert I Baratheon, while her twin Ser Jaime is a knight of Robert&apos;s Kingsguard. Members of the family tend to have golden hair and emerald green eyes.
+
+http://awoiaf.westeros.org/index.php/House_Lannister</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000042</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lannister</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000043</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Baratheon of Storm&apos;s End is one of the Great Houses of Westeros, and is the principal house in the stormlands, which they rule as Lords Paramount of the Stormlands. Their seat, Storm&apos;s End, is an ancient castle raised by the Storm Kings from the now-extinct House Durrandon. The Baratheon sigil is a crowned black stag on a field of gold. Members of the family tend to be tall and powerfully built, with black hair and blue eyes, as well as strong, square jawlines. They are known for their mercurial tempers, and their words are &quot;Ours is the Fury&quot;.
+
+After Robert&apos;s Rebellion, House Baratheon split into three branches: Lord Robert Baratheon was crowned King and took residence at King&apos;s Landing, thereby creating House Baratheon of King&apos;s Landing. Robert gave the seat of Dragonstone to his younger brother, Stannis, creating House Baratheon of Dragonstone. Robert&apos;s youngest brother, Renly, became the Lord of Storm&apos;s End, continuing House Baratheon of Storm&apos;s End.
+
+http://awoiaf.westeros.org/index.php/House_Baratheon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000043</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">baratheon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000044</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Greyjoy of Pyke is one of the Great Houses of Westeros. It rules over the Iron Islands, a harsh and bleak collection of forbidding islands off the west coast of Westeros, from the Seastone Chair in the castle of Pyke on the island of the same name. The head of the family is traditionally known as the Lord Reaper of Pyke. Their sigil is a golden kraken on a black field, and their house motto is &quot;We Do Not Sow.&quot; Members of the family tend to be attractive and well-built, with black hair.
+
+http://awoiaf.westeros.org/index.php/House_Greyjoy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000044</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">greyjoy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000045</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Nymeros Martell, usually simply called House Martell, is one of the Great Houses of the Seven Kingdoms and the ruling house of Dorne. &quot;Nymeros&quot; indicates &quot;of the line of Nymeria,&quot; referring to the union of the Martells with the Rhoynish warrior queen Nymeria around 700 BC. Prince of Dorne rules Dorne from Sunspear in southeastern Dorne.
+
+The Martells of old used a spear as their emblem, while Nymeria and her Rhoynar used the sun as theirs. When Nymeria wed Lord Mors Martell, the symbols were combined into a gold spear piercing a red sun on an orange field. Their words are Unbowed, Unbent, Unbroken. In appearance they are what Daeron I Targaryen considered salty Dornishmen, with dark eyes, dark hair in ringlets, and olive skin.
+
+http://awoiaf.westeros.org/index.php/House_Martell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000045</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">martell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000046</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Tyrell of Highgarden is one of the Great Houses of the Seven Kingdoms, being Lords Paramount of the Mander and the liege lords of the Reach. A large, wealthy house, its wealth is only surpassed among the Great Houses by House Lannister, and the Tyrells can field the greatest armies. Additionally, if they call the ships of the Redwyne fleet, the lords of the Shield Islands, and the coastal lords, they can command a navy that equals if not surpasses the royal fleet of King&apos;s Landing.
+
+Highgarden is an ancient seat of rule and the heart of chivalry in the Seven Kingdoms; the Tyrells style themselves &apos;Defenders of the Marches&apos; and &apos;High Marshals of the Reach&apos;, and traditionally, they have been Wardens of the South in addition to Lords Paramount of the Mander. Their sigil is a golden rose on a green field, and their words are &quot;Growing Strong.&quot; Members of the family tend to have curly brown hair and brown eyes.
+
+http://awoiaf.westeros.org/index.php/House_Tyrell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000046</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tyrell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000057</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Regions as designated by the map of Westeros.
+
+https://zalringda.deviantart.com/art/Alternative-map-of-Westeros-Game-of-Thrones-640038882</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000057</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000059</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Winterfell is the ancestral castle and seat of power of House Stark and is considered to be the capital of the north. It is located in the center of the northernmost province of the Seven Kingdoms, on the kingsroad that runs from Storm&apos;s End to the Wall. It is situated at the eastern edge of the wolfswood, north of the western branch of the White Knife and Castle Cerwyn. Winterfell is south of the northern mountains and southwest of Long Lake, one hundred leagues (three hundred miles) southeast of Deepwood Motte.
+
+http://awoiaf.westeros.org/index.php/Winterfell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000059</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">winterfell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000060</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Casterly Rock, nicknamed the Rock, is a castle and the seat of House Lannister. The capital of the westerlands, it overlooks the harbor of Lannisport and the Sunset Sea. Nearby strongholds include Kayce and Feastfires to the west, Sarsfield to the north, and Cornfield and Clegane&apos;s Keep to the south.
+
+http://awoiaf.westeros.org/index.php/Casterly_Rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000060</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">casterly_rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000061</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Storm&apos;s End is the seat of House Baratheon, the Lords Paramount of the Stormlands. The castle is located at Durran&apos;s Point on the northern coast of Shipbreaker Bay, south of Bronzegate and northeast of Griffin&apos;s Roost. The kingsroad runs north from Storm&apos;s End through the stormlands to King&apos;s Landing, the capital of the Seven Kingdoms.
+
+One of the strongest castles in the realm, Storm&apos;s End was once the ancestral seat of the Storm Kings of House Durrandon extending back many thousands of years. The castle is said to be protected by spells woven into its very walls that prevent magic from affecting it or passing through it. Renly Baratheon, Lord of Storm&apos;s End, is served by Maester Jurne.
+
+http://awoiaf.westeros.org/index.php/Storm%27s_End</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000061</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">storm_end</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000062</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Eyrie is an ancient castle and seat of House Arryn, one of the oldest lines of Andal nobility, within the Vale of Arryn. It is situated in the Mountains of the Moon astride the peak known as the Giant&apos;s Lance, several thousand feet above the valley below. Although small compared to the seats of other Great Houses in Westeros, the Eyrie is considered impregnable to attack. During winter years, the Arryns seek refuge against the cold at the base of the mountain in the Gates of the Moon.
+
+http://awoiaf.westeros.org/index.php/Eyrie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000062</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eeyrie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000063</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">King&apos;s Landing is the capital of the Seven Kingdoms, located in the crownlands on the east coast of Westeros. It is situated along the kingsroad at the mouth of the Blackwater Rush and overlooks Blackwater Bay. King&apos;s Landing is the site of the Iron Throne and the Red Keep, which is the seat of the king, Robert I from House Baratheon of King&apos;s Landing.
+
+The main city is surrounded by a wall, manned by the City Watch of King&apos;s Landing, also known as the gold cloaks. King&apos;s Landing is the most populous city in Westeros, but unsightly and dirty compared to other cities. Poorer smallfolk build shanty settlements outside the city. The stench of the city&apos;s waste can be smelled far beyond its walls.
+
+King&apos;s Landing, the principal harbor of the Seven Kingdoms, is rivaled only by Oldtown, which is larger in area but less populous. Nearby towns include Rosby and Duskendale to the northeast and Tumbleton to the southwest, while the kingswood is found south of the capital across the Blackwater. Driftmark and Dragonstone in the Gullet protect the bay from the narrow sea.
+
+http://awoiaf.westeros.org/index.php/King%27s_Landing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000063</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">kings_landing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000064</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Riverrun is the ancestral castle of House Tully, the Lords Paramount of the Trident. It is situated in the western riverlands, at the confluence of the Tumblestone and Red Fork rivers. Riverrun is north of Pinkmaiden and northwest of Acorn Hall. The castle sits along the river road, an easy ride which links Lannisport and the crossroads.
+
+http://awoiaf.westeros.org/index.php/Riverrun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000064</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">riverrun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000065</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pyke is a castle located on the island of the same name, which is one of the eight major Iron Islands. It is the seat of House Greyjoy, whose lord is known as the Lord Reaper of Pyke. The Greyjoys have been Lords of the Iron Islands since Aegon&apos;s Conquest. The Greyjoys claim the island is named after the castle.
+
+http://awoiaf.westeros.org/index.php/Pyke</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000065</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">pike</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000066</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Highgarden is a castle which serves as the seat of House Tyrell, the regional capital of the Reach, and the heart of chivalry in the Seven Kingdoms. It lies on the Mander and is where the Ocean Road meets the Roseroad, making it an important crossroads.
+
+Mace Tyrell is the Lord of Highgarden. The castle&apos;s household includes Lord Seneschal Garth Tyrell, Maester Lomys, the master-at-arms Ser Vortimer Crane, and the fool Butterbumps. Igon Vyrwel is the captain of the castle guards
+
+http://awoiaf.westeros.org/index.php/Highgarden</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000066</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">highgarden</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000067</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sunspear, also known as the Old Palace, is the seat of House Nymeros Martell and the capital of Dorne. The castle is located on the Broken Arm, north of the Greenblood on the far southeastern coast of Westeros and is surrounded on three sides by the sea, and by the shadow city on the fourth side. The palace of the Water Gardens lies three leagues away on the coastal road.
+
+http://awoiaf.westeros.org/index.php/Sunspear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000067</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sunspear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000068</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The westerlands is a region in the west of the continent of Westeros. Before the Targaryen conquest, it was known as the Kingdom of the Rock. People from the westerlands are known as westermen. The customary surname of bastards of noble origin born in the westerlands is Hill.
+
+The westerlands is ruled from Casterly Rock by House Lannister. Notable bannermen have included Banefort, Brax, Broom, Clegane, Crakehall, Farman, Lefford, Lydden, Marbrand, Payne, Prester, Reyne, Serrett, Swyft, Tarbeck, and Westerling.
+
+http://awoiaf.westeros.org/index.php/Westerlands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000068</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">westerlands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000069</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dorne is the large peninsula which makes up the southernmost part of Westeros, and is one of the constituent regions of the Seven Kingdoms. The lords of the ruling House Nymeros Martell style themselves &quot;Prince&quot; and &quot;Princess&quot; in the Rhoynish fashion.
+
+The Martells rule from their capital, Sunspear, outside of which sprawls the shadow city. Notable houses include Allyrion, Blackmont, Dayne, Fowler, Jordayne, Qorgyle, Santagar, Toland, Uller, Vaith, Wyl, and Yronwood.
+
+http://awoiaf.westeros.org/index.php/Dorne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000069</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dorne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000070</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The north or the North is one of the constituent regions of Westeros and was a sovereign nation ruled by Kings in the North before Aegon&apos;s Conquest. The largest region of the Seven Kingdoms, the dominion of House Stark extends from the border of the New Gift, which is controlled by the Night&apos;s Watch, to the southern edge of the Neck far to the south.
+
+The north has been ruled by the Starks for thousands of years from the castle known as Winterfell. Notable bannermen of the region include Bolton, Cerwyn, Dustin, Flint, Glover, Hornwood, Karstark, Manderly, Mormont, Reed, Ryswell, Tallhart, and Umber. Bastards of noble origin raised in the north are given the surname Snow.
+
+http://awoiaf.westeros.org/index.php/North</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000070</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">north</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000071</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Reach is one of the constituent regions of the Seven Kingdoms on the continent of Westeros. It was formerly a sovereign nation ruled by the Kings of the Reach before the War of Conquest. It is the second-largest of the kingdoms behind the north and is considered the most fertile and heavily-populated part of Westeros.
+
+The Reach is considered the home of chivalry in Westeros. It is the place where knighthood is looked upon with the greatest reverence and esteemed the most. It is also the place where the rules to tournaments are the most stringent and managed.
+
+The Reach is ruled from the castle of Highgarden by House Tyrell. Notable houses have included Ashford, Caswell, Crane, Florent, Fossoway, Gardener, Hightower, Merryweather, Mullendore, Oakheart, Redwyne, Rowan, Tarly, and Vyrwel. Noble bastards born in the Reach are given the surname Flowers.
+
+http://awoiaf.westeros.org/index.php/Reach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000071</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">reach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000072</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Iron Islands is one of the constituent regions of the Seven Kingdoms. Until Aegon&apos;s Conquest it was ruled by the Kings of the Iron Islands and then briefly the Kings of the Isles and the Rivers.
+
+The Iron Islands are home to a fierce seafaring people who call themselves the ironborn. While some say the archipelago is named after the abundant iron ore on the islands, the ironmen claim it is instead named after their own unyielding nature. It is often said that every captain is a king aboard his own ship, so the islands are also called &quot;the land of ten thousand kings&quot;.
+
+The isles are ruled by House Greyjoy from their castle of Pyke. Notable houses have included Blacktyde, Botley, Drumm, Goodbrother, Greyiron, Harlaw, Hoare, Merlyn, Stonehouse, Sunderly, Tawney, and Wynch. Bastards of noble origin from the Iron Islands receive the surname Pyke.
+
+http://awoiaf.westeros.org/index.php/Iron_Islands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000072</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">iron_islands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000073</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Vale of Arryn or the Vale is one of the constituent regions of the Seven Kingdoms of Westeros. It was formerly a sovereign nation ruled by the Kings of Mountain and Vale before Aegon&apos;s Conquest. The Mountains of the Moon surround the smaller Vale proper, although the valley&apos;s name is often applied to all of House Arryn&apos;s realm.
+
+The Vale is ruled by the Arryns from the castle known as the Eyrie. Notable houses of this region include Baelish, Belmore, Corbray, Egen, Grafton, Hersy, Hunter, Melcolm, Redfort, Royce, Templeton, and Waynwood. Bastards of noble origin raised in the Vale are given the surname Stone.
+
+http://awoiaf.westeros.org/index.php/Vale_of_Arryn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000073</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000074</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The riverlands is a central region of the Seven Kingdoms of Westeros, consisting of the rich, fertile, and populous areas around the three forks of the Trident and the northern Blackwater Rush. At the time of Aegon&apos;s Conquest the riverlands and the Iron Islands were ruled by House Hoare, the Kings of the Isles and the Rivers, although native river kings ruled centuries earlier.
+
+Because of their central position in Westeros and lack of natural boundaries, the riverlands have been a frequent battleground. The people of the riverlands are known as &quot;rivermen&quot; or occasionally &quot;riverlanders&quot;, and they are a mixture of hardy warriors, peaceful fisherfolk and devout smallfolk. Their lords have a reputation for being notoriously quarrelsome, and are refered to as &quot;river lords&quot;. Noble bastards born in the riverlands are given the surname Rivers.
+
+The riverlands are ruled from Riverrun by House Tully, the Lords Paramount of the Trident. Notable houses of the region have included Blackwood, Bracken, Darry, Frey, Lothston, Mallister, Mooton, Mudd, Piper, Ryger, Strong, Vance, and Whent.
+
+
+http://awoiaf.westeros.org/index.php/Riverlands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000074</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">river_lands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000075</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The crownlands is one of the nine constituent regions of the Seven Kingdoms of Westeros. It was never a sovereign nation, instead being contested by river kings, Storm Kings, and local petty kings until Aegon the Conqueror seized control of the area during his Wars of Conquest and made it his primary foothold on the continent. Since then, the crownlands have been ruled directly by the crown on the Iron Throne, first House Targaryen and, after Robert&apos;s Rebellion, House Baratheon. Bastards of noble origin raised in the crownlands are given the surname Waters.
+
+Some notable houses of the crownlands include Bar Emmon, Celtigar, Massey, Rosby, Rykker, Stokeworth, Sunglass, and Velaryon
+
+http://awoiaf.westeros.org/index.php/Crownlands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000075</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">crown_lands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000076</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The lesser houses of Westeros; each supports the great house of their region.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000076</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lesser_houses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000077</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Bolton of the Dreadfort is a noble house from the Dreadfort in the north. They are an old line descended from the First Men and dating back to the Age of Heroes. The Boltons are known for their practice of flaying their enemies.
+
+The Bolton sigil is a flayed man, red on pink. According to George R. R. Martin, their words are &quot;Our blades are sharp.&quot; According to the Bolton servant &quot;Reek&quot;, Lord Roose Bolton believes &quot;a naked man has few secrets, but a flayed man has none&quot;.
+
+Though they are officially pledged to the Starks, they eventually betray them with the Lannisters in order to gain Winterfell and full control of the North.
+
+http://awoiaf.westeros.org/index.php/House_Bolton</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000077</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bolton</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000078</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Clegane is a house of landed knights in the westerlands. They hold fealty to House Lannister of Casterly Rock, and are among their primary bannermen. Their lands are southeast of the Rock and include a towerhouse, which, according to a semi-canon source, is named Clegane&apos;s Keep. Their sigil depicts three dogs on a yellow field.
+
+http://awoiaf.westeros.org/index.php/House_Clegane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000078</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">clegane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000079</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Bracken of Stone Hedge is an old house from Stone Hedge in the riverlands, one of the main families sworn to House Tully of Riverrun. They blazon their arms with a red stallion upon a golden escutcheon on brown. Their words do not appear in the books.
+
+The Bracken lands lie along the Red Fork of the Trident.
+
+http://awoiaf.westeros.org/index.php/House_Bracken</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000079</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bracken</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000080</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Corbray of Heart&apos;s Home is a noble house from Heart&apos;s Home in the Vale of Arryn. It is an old but poor house. The ancestral Valyrian steel sword of the Corbrays is Lady Forlorn.
+
+They blazon their arms with three black ravens in flight holding three red hearts, on white. Their words do not appear in the books.
+
+http://awoiaf.westeros.org/index.php/House_Corbray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000080</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">corbray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000081</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Crakehall or Crakehall Castle is the seat of House Crakehall in the southwestern westerlands. It is located on the Searoad along the Sunset Sea, south of Lannisport and north of Old Oak. Cornfield and Red Lake are east of Crakehall. There is a large forest in the vicinity of the castle.
+
+http://awoiaf.westeros.org/index.php/Crakehall</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000081</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">crakehall</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000082</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Darry or Castle Darry is the seat of House Darry in the riverlands. Though old, Darry is a relatively small castle.
+
+http://awoiaf.westeros.org/index.php/Darry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000082</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">darry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000083</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Dayne of Starfall is a noble house from Starfall in Dorne. They are among the principal houses sworn to House Martell. The Sword of the Morning is a title given to a Dayne knight who is considered worthy of wielding the greatsword Dawn, a blade said to be created from the heart of falling star. Their blazon is a white sword and a falling star, crossing on a lavender background. A cadet branch of the family are the Daynes of High Hermitage.
+
+http://awoiaf.westeros.org/index.php/House_Dayne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000083</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dayne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000084</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Fossoway of Cider Hall is a noble house from the Reach, one of the principal bannermen sworn to House Tyrell of Highgarden. Cider Hall is located at the fork of the Mander and the Cockleswent.
+
+They are commonly referred as the red-apple Fossoways, to differentiate them from the other branch of the house, the green apple Fossoways from New Barrel, that split from the red apples in 209 AC.
+
+Their banner is a red apple over a golden field. Their motto does not appear in the books, but according to semi-canon sources it is &quot;A Taste of Glory&quot;.
+
+http://awoiaf.westeros.org/index.php/House_Fossoway_of_Cider_Hall</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000084</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fossoway</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000085</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Frey of the Crossing is a noble house of the riverlands. Their main seat is the Twins, a pair of castles on each bank of the northern Green Fork of the Trident that serves as a vital bridge across the river. The lord of the house is called the Lord of the Crossing.
+
+Their sigil is two blue towers united by a bridge on silver-grey, representing the Twins. Their house words are not mentioned in the books.
+
+The strategic location of the Twins has allowed the house to become quite wealthy. Under their current lord, Walder Frey, they have grown greatly in both size and power. One of the most powerful bannermen of the Tullys, the Freys can field a thousand knights and three thousand foot. Most Freys tend to share the weaselly appearance of their common ancestor, Lord Walder.
+
+http://awoiaf.westeros.org/index.php/House_Frey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000085</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">frey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000086</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Masseys are a lesser house from the crown lands.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000086</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">massey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000087</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Payne is a noble house from the Westerlands. It is one of the principal houses sworn to House Lannister. Their arms are purple and white chequy with gold coins in the checks.
+
+http://awoiaf.westeros.org/index.php/House_Payne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000087</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">payne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000088</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Redwyne of the Arbor is one of the main noble houses sworn to Highgarden. Their seat is the Arbor, an island located off the southwestern-most part of Westeros, best known for making the best wines in Westeros. The Redwynes control the Redwyne fleet, the largest fleet in Westeros, containing two hundred warships and five times as many merchant carracks, wine cogs, trading galleys, and whalers.
+
+The sigil of House Redwyne is a burgundy grape cluster on blue, symbolizing the famed wines of the Arbor. Their words are not known. Members of the house tend to be freckled and red of hair.
+
+The current Lord of the Arbor, Paxter Redwyne, is married to his cousin, Mina Tyrell, the sister of his liege, Lord Mace Tyrell. His elderly aunt, Olenna Redwyne, the &quot;Queen of Thorns&quot;, is the mother of Mace and Mina, and is a schemer par excellence. Besides their marital ties, Lady Olenna&apos;s influence over House Tyrell gives the Redwynes a strong voice in the Reach.
+
+http://awoiaf.westeros.org/index.php/House_Redwyne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000088</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">redwyne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000089</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Stokeworth of Stokeworth is a noble house from the Crownlands. Sworn to King&apos;s Landing, they live at nearby Castle Stokeworth north of the capital.
+
+They blazon their arms with a white lamb holding a golden goblet on a green field. Their motto is &quot;Proud to be Faithful&quot;.
+
+http://awoiaf.westeros.org/index.php/House_Stokeworth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000089</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stokeworth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000090</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Karstark of Karhold is a noble house from Karhold in the north. They were founded as a cadet branch of their overlords, the Starks of Winterfell, and are among their principal bannermen. Their blazon is a white sunburst on black and their motto is &quot;The Sun of Winter&quot;.
+
+http://awoiaf.westeros.org/index.php/House_Karstark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000090</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">karstark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000091</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Tarly of Horn Hill is a noble house of the Reach, one of the strongest sworn to House Tyrell.  Horn Hill is located in the foothills of the Red Mountains. Their sigil is the striding huntsman on green. Their motto is not revealed in the books, but according to semi-canon sources it is &quot;First in Battle&quot;.
+
+Marcher lords of the Dornish Marches, the Tarlys are a family old in honor with rich lands and a strong keep. They are also the keepers of a Valyrian greatsword called Heartsbane.
+
+http://awoiaf.westeros.org/index.php/House_Tarly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000091</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tarly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000092</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Umber of the Last Hearth is a noble house from the Last Hearth in the north. Lord Jon Umber, called &quot;the Greatjon&quot;, is sworn to House Stark of Winterfell. The Umber sigil is a roaring giant, brown-haired and wearing a skin, with broken silver chains, on flame-red.
+
+http://awoiaf.westeros.org/index.php/House_Umber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000092</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">umber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000093</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">House Yronwood of Yronwood is the most powerful house in Dorne after the ruling Martells. Their seat, Yronwood, is the last fortress defending the Boneway; this is reflected in their title Warden of the Stone Way. House Yronwood claimed the title High King of Dorne before the arrival of the Rhoynar, and the head of the house continues to be called the Bloodroyal.
+
+According to semi-canon sources, their motto is We Guard the Way. Their blazon is a black portcullis grill over sand. The Yronwoods often have blond hair and blue eyes.
+
+http://awoiaf.westeros.org/index.php/House_Yronwood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000093</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">yronwood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000094</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The stormlands are one of the constituent regions of the Seven Kingdoms on the continent of Westeros. The Kingdom of the Storm was a sovereign nation until the War of Conquest, in which the last Storm King was slain. The region is so-named for the savage and frequent autumn storms that batter the coast after beginning in the Summer Sea.
+
+The stormlands are ruled from the castle of Storm&apos;s End by House Baratheon. Notable bannermen of the region include Buckler, Caron, Connington, Dondarrion, Errol, Estermont, Penrose, Selmy, Staedmon, Swann, Tarth, and Wylde.Noble bastards raised in the stormlands are given the surname Storm.
+
+http://awoiaf.westeros.org/index.php/Stormlands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000094</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">storm_lands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000095</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Westeros is a fictional continent from the ASOIAF series. It is where the majority of the great and lesser houses of the series are based out of and where most of the plot is focused (on the procurement of the Iron Throne in King&apos;s Landing).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000095</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">westeros</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000096</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Certain traits are strongly associated with particular houses. This often has significance to the plot in determining the true paternity of prominent characters (for example: Joffery Baratheon).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000096</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">traits</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000097</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Lannisters are known for having golden blonde hair.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000097</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">blondehair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000098</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Targaryens are known for having white or silver hair.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000098</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">whitehair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000099</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Starks are known for having grey eyes, but there are some exceptions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000099</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">greyeyes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000100</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tullys are known for often having auburn hair and blue eyes (but there are some exceptions).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000100</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">auburnHairBlueEyes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000101</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Baratheons are known for having exclusively black hair. It is the essential point to &quot;the seed is strong&quot; relevation in season one/book one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000101</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">blackHair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000102</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">All of the great houses of Westeros (and many lesser houses) have a sigil, or crest, associated with them. Their sigil is a symbol of their house: their origins, values, and power.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000102</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sigils</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000103</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The cracken forms the sigil for the house Greyjoy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000103</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cracken</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000104</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The stag forms the sigil for the house Baratheon.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000104</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stag</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000105</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The direwolf forms the sigil for the house of Stark.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000105</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">direwolf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000106</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The jumping trout forms the sigil for the house of Tully.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000106</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fish</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000107</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The rose is the sigil for the house Tyrell.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000107</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">roses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000108</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The lion forms the sigil for the house of Lannister.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000108</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000109</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">More specifically, a three-headed dragon forms the sigil for the house Targaryen.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000109</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dragon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000110</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The sun with a spear through it is the sigil for the house of Martell.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000110</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sunWithSpear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000111</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The moon and falcon is the sigil for the house Arryn.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies#PIZZA_0000111</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">moonAndFalcon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Westeros_0000112</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasTrait</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Westeros_0000114</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isSupportedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Westeros_0000115</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isEnemyOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Westeros_0000117</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isBasedOutOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Westeros_0000118</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">castleIsIn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Westeros_0000119</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HasSigil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Westeros_0000120</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Not all Targaryens, but only &quot;True Dragons&quot; (ON THE SHOW ONLY), are fire resistant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Westeros_0000120</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">doesNotBurn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Westeros_0000121</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Valyria is not located in Westeros. It is the ancestral home of the Targaryen dynasty; it was once a great civilization and is now in ruins.
+
+http://awoiaf.westeros.org/index.php/Valyria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Westeros_0000121</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">valyria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Westeros_0000122</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The flayed man is the sigil for the Boltons.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Westeros_0000122</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">flayedMan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Westeros_0000123</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Boltons (in particular, Roose and Ramsay Bolton) are known for having chillingly light coloured eyes that resemble &quot;chips of dirty ice.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Westeros_0000123</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dirtyIceEyes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Westeros_0000124</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Three running hounds form the sigil for the lesser house of Clegane.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Westeros_0000124</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">threeRunningHounds</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
